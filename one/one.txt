@@ -1,2 +1,4 @@
 this is my 1st day for learning git/github.
 add more content to file one
+2026 is comming 
+add footer note
