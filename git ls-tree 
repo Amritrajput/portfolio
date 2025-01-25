@@ -1,0 +1,7 @@
+[33mcommit 04ff403e320caa0834c1b09862b00524f2214540[m
+tree 42ce61df42976b6d7fc591a74889545eba94cafb
+parent 3c51a56f4e28226351f982a1dca951d0f8c6c076
+author Amritrajput <amritrajsingh179@gmail.com> 1737797224 +0530
+committer Amritrajput <amritrajsingh179@gmail.com> 1737797224 +0530
+
+    add gitignore file
