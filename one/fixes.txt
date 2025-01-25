@@ -1,2 +1,3 @@
 i am fix file which will be usedto fix the buggit sta
 fixed another bug
+bug detected and fix
