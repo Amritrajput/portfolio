@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    h2 {
+      color: aqua;
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    h3 {
+      text-align: center;
+      color: rgb(5, 228, 228);
+    }
+
+    form {
+      width: 80%;
+      max-width: 400px;
+      margin: 20px auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: aqua;
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: rgb(5, 200, 200);
+    }
+    nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(239, 239, 243);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 20px;
+        }
+
+        nav ul li {
+            text-decoration: none;
+            color: aqua;
+        }
+
+        nav ul li a:hover {
+            color: red;
+            font-size: 1.07rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: aqua;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+  </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+          <div class="left">Portfolio</div>
+          <div class="right">
+            <ul>
+              <li><a href="index.html" >Home</a></li>
+              <li><a href="about.html"  target="_blank">About</a></li>
+              <li><a href="services.html"  target="_blank">Services</a></li>
+              <li><a href="projects.html"  target="_blank">Projects</a></li>
+              <li><a href="contact.html"  target="_blank">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+  <h2>Contact Me</h2>
+  <h3>Send Me a Message</h3>
+  <form action="#">
+    <label>Your Name:</label>
+    <input type="text" placeholder="Name" required />
+
+    <label>Email Address:</label>
+    <input type="email" placeholder="Email" required />
+
+    <label>Phone Number:</label>
+    <input type="tel" placeholder="Phone" pattern="[0-9]{10}" title="Enter a 10-digit phone number" required />
+
+    <label>Send Message:</label>
+    <textarea placeholder="Type your message here..." rows="5" required></textarea>
+
+    <button type="submit">Let's Collaborate</button>
+  </form>
+</body>
+
+</html>
