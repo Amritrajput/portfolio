@@ -5,13 +5,14 @@ body {
     color: black;
     margin: 0;
     padding: 0;
+    background: linear-gradient(135deg, #8a2be2, #4169e1);
   }
   
   nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(239, 239, 243);
+    background-color: #1c4bb7 ;
   }
   
   nav ul {
@@ -227,4 +228,33 @@ footer{
 
 button:hover {
   background-color: #0056b3;
+}
+nav a{
+  position: relative;
+  display: block;
+  
+}
+nav a::after{
+   content: "";
+   position: absolute;
+   height: 2px;
+   width: 100%;
+   bottom: 0;
+   left: 0;
+   background-color:red;
+   transform: scaleX(0);
+   transition: 0.3s ease-in-out;
+}
+nav a:hover::after{
+  transform: scaleX(1);
+}
+
+nav  .dropdown-content{
+display: none;
+position: absolute;
+/* margin-left: 5px; */
+}
+nav .dropdown:hover .dropdown-content{
+display: block;
+background-color: rgb(219, 213, 213) ;
 }
