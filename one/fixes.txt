@@ -1,7 +1,0 @@
-i am fix file which will be usedto fix the buggit sta
-fixed another bug
-bug detected and fix
-4th bug fix
-5th bug fix
-just for maintaining streak
-git/github is best tool to learn as a cs student
